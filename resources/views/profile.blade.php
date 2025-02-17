@@ -85,9 +85,9 @@
             </p>
         </div>
         <div class="photos">
-            <img class="picsprofile" src="../images/nzneedle.jpg" alt="nzneedle">
-            <img class="picsprofile" src="../images/thailand.jpg" alt="thailand">
-            <img class="picsprofile" src="../images/snoqualmie.jpg" alt="usa">
+            <img class="picsprofile" src="{{ asset('/images/nzneedle.jpg') }}" alt="nzneedle">
+            <img class="picsprofile" src="{{ asset('/images/thailand.jpg') }}" alt="thailand">
+            <img class="picsprofile" src="{{ asset('/images/snoqualmie.jpg') }}" alt="usa">
         </div>
     </article>
     <div class="spotify">
