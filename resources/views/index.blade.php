@@ -22,14 +22,14 @@
             <li><a class="inuse" href="{{ route('index') }}">Home</a></li>
             <li><a href="{{ route('profile') }}">Profile</a></li>
             <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="{{ route('faq') }}">FAQ</a></li>
+            <li><a href="{{ route('blog') }}">Blog</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
-    <img id="me" src="../images/myself.jpg" alt="just me">
+    <img id="me" src="images/myself.jpg" alt="just me">
     <div class="p1">
         <!-- Paragraph 1, Why ICT? -->
         <h2>Why did I choose ICT?</h2>

@@ -19,11 +19,11 @@
     </div>
     <nav class="navbar">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="profile.html">Profile</a></li>
-            <li><a href="dashboard.html">Dashboard</a></li>
-            <li><a class="inuse" href="faq.html">FAQ</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="{{ route('index') }}">Home</a></li>
+            <li><a href="{{ route('profile') }}">Profile</a></li>
+            <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
+            <li><a class="inuse" href="{{ route('faq') }}">FAQ</a></li>
+            <li><a href="{{ route('blog') }}">Blog</a></li>
         </ul>
     </nav>
 </header>
