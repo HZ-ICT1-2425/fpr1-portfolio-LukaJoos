@@ -1,0 +1,56 @@
+article {
+    margin-top: 2%;
+    padding: 1%;
+    display: inline-block;
+    justify-content: center;
+    background: rgb(0, 0, 0, 0.5);
+    border: 2px #F3D9DC solid;
+    width: 65%;
+    color: #F3D9DC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+ul {
+    list-style-position: inside;
+    align-items: center;
+    text-align: center;
+}
+
+/* post three SWOT */
+.swot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.strengths {
+    border: #F3D9DC solid 2px;
+}
+
+.weaknesses {
+    border: #F3D9DC solid 2px;
+}
+
+.opportunities {
+    border: #F3D9DC solid 2px;
+}
+
+.threats {
+    border: #F3D9DC solid 2px;
+}
+
+/* links */
+.link {
+    color: #d9f3f0;
+}
+
+.link:hover{
+    color: #4c8bf5;
+}
+
+.link:visited {
+    color: #d9f3f0;
+}

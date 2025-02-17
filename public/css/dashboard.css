@@ -1,0 +1,26 @@
+/* table */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 75%;
+    background-color: #8BB174;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+td, th {
+    border: 1px solid #F3D9DC;
+    margin: 10px;
+    padding: 5px;
+}
+
+.table2 {
+    background-color: #6A8EAE;
+}
+
+.alternate {
+    background-color: #7BA091;
+}

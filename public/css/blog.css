@@ -1,0 +1,35 @@
+/* blog posts */
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.posts div {
+    width: 49%;
+    border: 2px solid #F3D9DC;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: #F3D9DC;
+}
+
+.posts::after {
+    content: "";
+    width: 768px;
+}
+.link {
+    color: #d9f3f0;
+}
+
+.link:hover{
+    color: #4c8bf5;
+}
+
+.link:visited {
+    color: #d9f3f0;
+}
+
+.date {
+    font-size: small;
+}

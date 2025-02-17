@@ -1,0 +1,100 @@
+/* body */
+body {
+    background-image: url(../images/firewatch.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    position: relative;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#logo {
+    margin-right: auto;
+    height: 7%;
+    width: 7%;
+}
+
+#logoright {
+    margin-left: auto;
+    height: 7%;
+    width: 7%
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+}
+
+main {
+    text-align: center;
+}
+
+/* navbar */
+.navbar {
+    width: 45%;
+    background-color: #2C363F;
+    border-radius: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: static;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 1%;
+    overflow: hidden;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: #F3D9DC;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.navbar a.inuse {
+    background-color: rgb(107, 107, 107);
+}
+
+.navbar a:hover {
+    background-color: rgb(107, 107, 107);
+    color: #F3D9DC;
+}
+
+.navbar a:visited {
+    color: #F3D9DC;
+}
+
+/* footer */
+footer {
+    background: rgb(0, 0, 0, 0.5);
+    color: #F3D9DC;
+    text-align: center;
+    border: #F3D9DC 2px solid;
+}
+
+.links {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside a {
+    color: #F3D9DC;
+}
