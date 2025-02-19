@@ -15,3 +15,4 @@ Route::get('faq', [FAQController::class, 'index'])->name('faq');
 
 Route::get('blog', [PostController::class, 'index'])->name('blog');
 
+Route::get('posts/{slug}', [PostController::class, 'show'])->name('posts.show');

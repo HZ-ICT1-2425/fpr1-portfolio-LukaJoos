@@ -13,7 +13,7 @@
 <body>
 <header>
     <div class="title">
-        <img id="logo" src="../images/lukalogo.png">
+        <img id="logo" src="{{ asset('/images/lukalogo.png') }}" alt="luka logo">
         <h1>Blog posts</h1>
         <span id="logoright"></span>
     </div>
@@ -33,32 +33,32 @@
         <div class="post1">
             <p class="date"><i>03/10/2024</i></p>
             <h3>First Feedback</h3>
-            <p>My received feedback so far... <a class="link" href="../blogs/postone.html">Read more</a></p>
+            <p>My received feedback so far... <a class="link" href="{{ route('posts.show', 'firstfeedback') }}">Read more</a></p>
         </div>
         <div class="post2">
             <p class="date"><i>11/09/2024</i></p>
             <h3>Study Choice</h3>
             <p>The way I decided on this study is purely by seeing what HZ had to offer...
-                <a class="link" href="../blogs/posttwo.html">Read more</a>
+                <a class="link" href="{{ route('posts.show', 'studychoice') }}">Read more</a>
             </p>
         </div>
         <div class="post3">
             <p class="date"><i>11/09/2024</i></p>
             <h3>Personal SWOT</h3>
-            <p>Get to know me personal SWOT... <a class="link" href="../blogs/postthree.html">Read more</a>
+            <p>Get to know me personal SWOT... <a class="link" href="{{ route('posts.show', 'swot') }}">Read more</a>
             </p>
         </div>
         <div class="post4">
             <p class="date"><i>11/09/2024</i></p>
             <h3>Programming Experience</h3>
-            <p>Get to know my previous programming experience... <a class="link" href="../blogs/postfour.html">Read
+            <p>Get to know my previous programming experience... <a class="link" href="{{ route('posts.show', 'experience') }}">Read
                     more</a></p>
         </div>
         <div class="post5">
             <p class="date"><i>11/09/2024</i></p>
             <h3>Article</h3>
             <p>In the past 12 months one in four employed ICT professionals switched jobs or changed employers...
-                <a class="link" href="../blogs/postfive.html">Read more</a> </p>
+                <a class="link" href="{{ route('posts.show', 'ictarticle') }}">Read more</a> </p>
         </div>
     </article>
 </main>
