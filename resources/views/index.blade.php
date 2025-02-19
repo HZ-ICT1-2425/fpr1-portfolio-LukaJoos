@@ -13,7 +13,7 @@
 <body>
 <header>
     <div class="title">
-        <img id="logo" src="{{ asset('images/lukalogo.png') }}" alt="logo">
+        <img id="logo" src="{{ asset('/images/lukalogo.png') }}" alt="luka logo">
         <h1>Luka's showcase website</h1>
         <span id="logoright"></span>
     </div>

@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="../css/main.css" rel="stylesheet">
-    <link href="../css/dashboard.css" rel="stylesheet">
+    <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/dashboard.css') }}" rel="stylesheet">
     <title>My dashboard</title>
 </head>
 
 <body>
 <header>
     <div class="title">
-        <img id="logo" src="../images/lukalogo.png">
+        <img id="logo" src="{{ asset('/images/lukalogo.png') }}" alt="luka logo">
         <h1>Dashboard</h1>
         <span id="logoright"></span>
     </div>
